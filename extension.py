@@ -1,6 +1,16 @@
 import os
 import sys
 
+"""
+How to use:
+    Extension Changer
+    - Change file extension for all files that match the required fields
+        (Previous Extension, Extension Change)
+    - Extend to allow for the use of multiple directories
+    
+    Use: (in path '/') extension.py -h OR extension.py .jpg .png
+"""
+
 def change_ext(match='.test123', ext=".test123"):
     changed = 0
     unchanged = 0
